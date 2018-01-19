@@ -28,9 +28,12 @@ h1{
 }
 .rajesh{
 	background-color: #fedfef;
-	box-shadow: 0 8px 8px 0 yellow;
+	box-shadow: 0 8px 8px 0 red;
 	border-radius: 10px;
 
+}
+.rajesh:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 img{
 	border-radius: 10px;
@@ -49,7 +52,7 @@ img{
 		/*background-color: green;*/
 	}
 	.rajesh{
-		background-color: yellow;
+		background-color: #eee9e9;
 		box-shadow: 0 5px 8px 0 red;
 		max-width: 740px;
 		margin-top: 10px;
