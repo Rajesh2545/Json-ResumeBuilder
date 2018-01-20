@@ -76,27 +76,39 @@ img{
 		margin: 0 10px 0 0;
 	}
 }
-@media(max-width: 360px){
+@media(max-width: 450px){
 
 	.flex-container{
 		width: 330px;
 	}
 	.rajesh{
 		width:100%;
+		display: flex;
+		padding-left: 2em;
 
 	}
-	img{
-		width: 100%;
+	.cardimage{
+		width: 50%;
+		padding: 10px;
+		flex-wrap: wrap;
+	}
+	.card{
+		flex-wrap: wrap;
+		padding-top: 2.5em;
+		width: 50%;
 	}
 	h1{
 		text-align: center;
+	}
+	.add{
+		padding-left: 3em;
 	}
 }
 
 /*From page*/
 
 fieldset{
-	
+
 	margin-right: 18%;
 	margin-left: 18%;
 }
@@ -141,6 +153,3 @@ td{
 .bg{
 	background:#F0F8FF;
 }
-
-
-
