@@ -76,7 +76,7 @@
     flex-wrap: wrap;
   }
   .left{
-    background: #79BAEC;
+    background: #FDEBD0;
     width: 100%;
     height: auto;
     position: relative;
@@ -99,9 +99,10 @@
     background: #F0F8FF;
     }
   .left hr{
-    hight:2px;
+    
     color:#FDFEFE;
     background-color:#FDFEFE;
+    hight:2px;
   }
   
 }
